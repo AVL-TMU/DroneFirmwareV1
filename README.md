@@ -1,10 +1,10 @@
 # DroneFirmwareV1
 ROS2 workspace to control a drone though PX4 in offboard flight mode, with and external controller.
 
-# Getting started
+## Getting started
 We advise to use Docker to run both PX4 and the offboard application.
 
-## Install Docker
+### Install Docker
 There is a convinient script that facilitate everything
 ```
 curl -fsSL get.docker.com -o get-docker.sh
@@ -18,3 +18,11 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
 **Now log out and in again before using docker!!**
+
+### Clone PX4 firmware
+Clone the firmware from the official repository
+
+### TO DO:
+1. finish the guide to get start
+2. add the info to use Microxrcedds
+3. write the commands to run the simulation with docker
