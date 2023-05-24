@@ -81,7 +81,7 @@ make px4_sitl gazebo-classic
 At the end of the building process you will see the Gazebo simulation opened.
 
 ### 2) Start the communication client
-Go into the repository and start the client
+Open a new terminal and go into the repository and start the client
 ```
 cd Micro-XRCE-DDS-Agent/build
 ./MicroXRCEAgent udp4 -p 8888
