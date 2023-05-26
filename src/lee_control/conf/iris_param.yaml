@@ -1,0 +1,16 @@
+/lee_controller:
+  ros__parameters:
+    # inertia: [0.0347563, 0.0458929, 0.0977]
+    # kp: [15.0, 15.0, 15.0]
+    # kd: [5.7, 5.7, 5.7]
+    # attitude_gain: [2.0, 3.0, 0.15]
+    # angular_rate_gain: [0.4, 0.52, 0.18]
+    Kp_pos: [20.0, 20.0, 40.0]                            
+    Kd_pos: [18.5, 18.5, 15.0]                             
+    Kr_att: [0.15, 0.15, 0.03]                  
+    Kw_att: [0.05, 0.05, 0.003]             
+    # mass: 1.515
+    # motor_force_k: 5.84e-06                         #<--px4
+    # motor_moment_k: 0.06                            #<--px4
+    # rotor_angles: [ 0.5337, -2.565, 2.565, -0.5337] #<--px4
+    # arm_length:   [ 0.255, 0.238, 0.238, 0.255]     #<--px4
