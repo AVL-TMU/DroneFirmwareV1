@@ -30,6 +30,15 @@ Clone the firmware from the official repository, in the same folder where you cl
 ```
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
 ```
+In order to work with the thrust and torque setpoints, you need to change a parameter in the drone sdf file.
+Go into the folder
+```
+PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/iris
+```
+open the file ```iris.sdf.jinja```, look for the parameter ```enable_lockstep``` and change it from 1 to 0
+```
+<enable_lockstep>0</enable_lockstep>
+```
 
 ### 4) Clone the uXRCE-DDS client 
 This is the client needed to communicate with PX4 from ROS2.
